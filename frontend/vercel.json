@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@vercel/static-build", "config": { "distDir": "build" } }
+  ],
+  "framework": "create-react-app",
+  "env": {
+    "REACT_APP_API_BASE_URL": "http://127.0.0.1:8001"
+  }
+}
+
